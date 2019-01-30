@@ -10,7 +10,10 @@
   ],
   "author": "Jeya Prakash",
   "license": "MIT",
-  "repository": "YJPrakash/Webpack-Samples",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YJPrakash/Webpack-Samples.git"
+  },
   "dependencies": {
     "jquery": "^3.3.1",
     "react": "^16.2.0",
@@ -35,5 +38,12 @@
     "uglifyjs-webpack-plugin": "^1.1.6",
     "url-loader": "^0.6.2",
     "webpack": "^4.20.2"
+  },
+  "bugs": {
+    "url": "https://github.com/YJPrakash/Webpack-Samples/issues"
+  },
+  "homepage": "https://github.com/YJPrakash/Webpack-Samples#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
